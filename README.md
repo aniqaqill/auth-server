@@ -9,7 +9,9 @@ The project builds RESTful APIs using Node.js, Express
 Clone the repo:
 
 ```bash
-git clone https://github.com/name/repo.git
+git clone https://github.com/aniqaqill/auth-server.git
+or
+gh repo clone aniqaqill/auth-server
 cd repo
 ```
 
@@ -18,17 +20,6 @@ Install the dependencies:
 ```bash
 npm install
 ```
-
-Set the environment variables:
-
-```bash
-cp .env.example .env
-# open .env and modify the environment variables
-```
-
-Generate JWT RS256 key:
-
-
 ## Table of Contents
 
 - [Commands](#commands)
@@ -91,5 +82,5 @@ List of available routes:
 `POST localhost:3000/register` - Register\
 `POST localhost:3000/login` - Signin\
 `POST localhost:3000/logout` - Logout\
-`POST localhost:3000/profile` - User profile\
+`POST localhost:3000/profile` - Profile\
 `
