@@ -59,19 +59,8 @@ HOST = # default 0.0.0.0
 # Port
 PORT = # default 666
 
-
-# JWT
-JWT_ACCESS_TOKEN_SECRET_PRIVATE =
-JWT_ACCESS_TOKEN_SECRET_PUBLIC =
-JWT_ACCESS_TOKEN_EXPIRATION_MINUTES = # default 240 minutes
-
-# Token expires
-REFRESH_TOKEN_EXPIRATION_DAYS = # default 1 day
-VERIFY_EMAIL_TOKEN_EXPIRATION_MINUTES = # default 60 minutes
-RESET_PASSWORD_TOKEN_EXPIRATION_MINUTES = # default 30 minutes
-
 # URL frontend
-FRONTEND_URL = # default http://localhost:777
+FRONTEND_URL = # [default http://localhost:777](https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)
 ```
 
 ### API Endpoints
@@ -80,7 +69,7 @@ List of available routes:
 
 **Auth routes**:\
 `POST localhost:3000/register` - Register\
-`POST localhost:3000/login` - Signin\
+`POST localhost:3000/login` - Login\
 `POST localhost:3000/logout` - Logout\
 `POST localhost:3000/profile` - Profile\
 `
