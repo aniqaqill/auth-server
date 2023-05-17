@@ -41,9 +41,9 @@ Running in development:
 npm run dev
 ```
 
-# URL frontend
+# API URL
 FRONTEND_URL = # 
-[(https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)](https://auth-server-production-84ee.up.railway.app/)
+(https://auth-server-production-84ee.up.railway.app/)
 
 
 ### API Endpoints
@@ -51,7 +51,7 @@ FRONTEND_URL = #
 List of available routes:
 
 **Auth routes**:\
-`POST localhost:3000/register` - Register\
-`POST localhost:3000/login` - Login\
-`POST localhost:3000/logout` - Logout\
-`POST localhost:3000/profile` - Profile\
+`POST https://auth-server-production-84ee.up.railway.app/register` - Register\
+`POST https://auth-server-production-84ee.up.railway.app/login` - Login\
+`POST https://auth-server-production-84ee.up.railway.app/logout` - Logout\
+`POST https://auth-server-production-84ee.up.railway.app/profile` - Profile\
