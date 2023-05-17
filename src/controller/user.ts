@@ -33,7 +33,7 @@ export const login = async (req: Request, res: Response) => {
       if (!passwordMatch) {
         res.status(401).json({ message: 'Invalid credentials' });
       } else {
-        const token = jwt.sign({ userId: user.id }, 'your_secret_key'); // Generate a token with the user ID
+        const token = jwt.sign({ userId: user.id }, 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2ODQzNDQ1ODgsImV4cCI6MTcxNTg4MDU4OCwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20iLCJSb2xlIjpbIk1hbmFnZXIiLCJQcm9qZWN0IEFkbWluaXN0cmF0b3IiXX0.xOE_sXSqQ_F1pVkUazOEKCNm-R2_gvrN50I2OouEZufLvD5d-w2KYlJKUMDlJpdo71F4Iku5tiE5x2kmU-tXDg'); // Generate a token with the user ID
         res.status(200).json({ message: 'Login successful', token });
       }
     }
