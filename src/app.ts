@@ -4,6 +4,7 @@ import router from './routes/routes';
 
 
 const app = express();
+const port = 8080;
 
 
 app.use(express.json());
@@ -18,6 +19,6 @@ app.get('/', (req, res) => {
 app.use(router);
 
 
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
-});
+app.listen(port, () => {
+  console.log(`listening on port ${port}`)
+})
