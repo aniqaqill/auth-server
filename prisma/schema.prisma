@@ -5,10 +5,17 @@ generator client {
   provider = "prisma-client-js"
 }
 
+//endpoint for supabase databases 
 datasource db {
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
+
+// To use the sqlite3 connector, uncomment this block and run `npm install @prisma/cli --save-dev`
+// datasource sqlite {
+//   provider = "sqlite"
+//   url      = "file:./dev.db"
+// }
 
 model User {
   id        Int      @id @default(autoincrement())
