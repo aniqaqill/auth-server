@@ -14,7 +14,7 @@ const verifyToken = () => {
     } else {
       const payload = jwt.verify(
         token,
-        'your_secret_key'
+        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJpc3MiOiJPbmxpbmUgSldUIEJ1aWxkZXIiLCJpYXQiOjE2ODQzNDQ1ODgsImV4cCI6MTcxNTg4MDU4OCwiYXVkIjoid3d3LmV4YW1wbGUuY29tIiwic3ViIjoianJvY2tldEBleGFtcGxlLmNvbSIsIkdpdmVuTmFtZSI6IkpvaG5ueSIsIlN1cm5hbWUiOiJSb2NrZXQiLCJFbWFpbCI6Impyb2NrZXRAZXhhbXBsZS5jb20iLCJSb2xlIjpbIk1hbmFnZXIiLCJQcm9qZWN0IEFkbWluaXN0cmF0b3IiXX0.xOE_sXSqQ_F1pVkUazOEKCNm-R2_gvrN50I2OouEZufLvD5d-w2KYlJKUMDlJpdo71F4Iku5tiE5x2kmU-tXDg'
         ) as JwtPayload; // Verify the token
 
         if (!payload) {
