@@ -72,4 +72,3 @@ List of available routes:
 `POST localhost:3000/login` - Login\
 `POST localhost:3000/logout` - Logout\
 `POST localhost:3000/profile` - Profile\
-`
