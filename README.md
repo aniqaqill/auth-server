@@ -1,11 +1,17 @@
-# auth-server
+# Regov Technologies assignment
+Based on the given Question 2.Implement a user registration and login API, connect mysql database, a user should be able to register and then use the registered detials to sign into the system. A signed in user should be able to log out from the system.
+
+# Technologies Used for Front-End
+- NodeJS
+- ExpressJS
+- Prisma 
+- postgresql (Supabase)
+- Vercel (Deployment)
 
 # RESTful API Node Express for user authentication
-
 The project builds RESTful APIs using Node.js, Express
 
 ## Manual Installation
-
 Clone the repo:
 
 ```bash
@@ -32,35 +38,13 @@ npm install
 Running in development:
 
 ```bash
-npm start
-# or
 npm run dev
 ```
 
-Running in production:
-
-```bash
-# build
-npm run build
-# start
-npm run prod
-```
-
-## Environment Variables
-
-The environment variables can be found and modified in the `.env` file.
-
-```bash
-# App name
-APP_NAME = # default App Name
-
-# Host
-HOST = # default 0.0.0.0
-# Port
-PORT = # default 666
-
 # URL frontend
-FRONTEND_URL = # [default http://localhost:777](https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)
+FRONTEND_URL = # 
+```
+[(https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)](https://auth-server-production-84ee.up.railway.app/)
 ```
 
 ### API Endpoints
