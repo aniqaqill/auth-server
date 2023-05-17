@@ -43,9 +43,8 @@ npm run dev
 
 # URL frontend
 FRONTEND_URL = # 
-```
 [(https://auth-client-fmh5gnrek-aniqaqill.vercel.app/)](https://auth-server-production-84ee.up.railway.app/)
-```
+
 
 ### API Endpoints
 
