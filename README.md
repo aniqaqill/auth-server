@@ -1,7 +1,7 @@
 # Regov Technologies assignment
 Based on the given Question 2.Implement a user registration and login API, connect mysql database, a user should be able to register and then use the registered details to sign into the system. A signed in user should be able to log out from the system.
 
-# Technologies Used for Front-End
+# Technologies Used for Back-end
 - NodeJS
 - ExpressJS
 - Prisma 
