@@ -6,7 +6,7 @@ Based on the given Question 2.Implement a user registration and login API, conne
 - ExpressJS
 - Prisma 
 - postgresql (Supabase)
-- Vercel (Deployment)
+- Railway (Deployment)
 
 # RESTful API Node Express for user authentication
 The project builds RESTful APIs using Node.js, Express
