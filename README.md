@@ -36,7 +36,7 @@ npm run dev
 ```
 
 # API URL
-FRONTEND_URL = # 
+URL = # 
 (https://auth-server-production-84ee.up.railway.app/)
 
 
